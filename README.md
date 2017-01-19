@@ -1,6 +1,6 @@
 #lib.flexible
 
-移动端自适应方案
+移动端自适应方案，相关文章请参考[此处](https://github.com/amfe/article/issues/17)
 
 ## 最新版本
 
@@ -22,7 +22,7 @@
 
 ## 使用方法
 
-建议对于js做`内敛处理`，在**所有资源加载之前**执行这个js。
+建议对于js做`内联处理`，在**所有资源加载之前**执行这个js。
 
 执行这个js后，会在`html`（也就是document.documentElement）上增加一个`data-dpr`属性，以及`font-size`样式。
 
@@ -152,4 +152,6 @@
 
 ### 四类栅格在不同手机上的表现
 
-![栅格](grid.jpg);
+![栅格](grid.jpg)
+
+
